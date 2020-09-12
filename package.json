@@ -1,0 +1,17 @@
+{
+  "name": "test_handson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "supaiku2452 <supaiku2452@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll=true"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0"
+  },
+  "dependencies": {
+    "typescript": "^4.0.2"
+  }
+}
