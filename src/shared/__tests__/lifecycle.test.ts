@@ -1,0 +1,23 @@
+beforeAll(() => {
+  console.log("beforeAll:[1]");
+});
+beforeEach(() => {
+  console.log("beforeEach:[1]");
+});
+afterAll(() => {
+  console.log("afterAll:[1]");
+});
+afterEach(() => {
+  console.log("afterEach:[1]");
+});
+describe("life cycle", () => {
+  beforeEach(() => {
+    console.log("beforeEach:[2]");
+  });
+  afterEach(() => {
+    console.log("afterEach:[2]");
+  });
+  it("test", () => {
+    console.log("test");
+  });
+});
