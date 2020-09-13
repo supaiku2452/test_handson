@@ -17,7 +17,7 @@ describe("life cycle", () => {
   afterEach(() => {
     console.log("afterEach:[2]");
   });
-  it("test", () => {
+  test("test", () => {
     console.log("test");
   });
 });
