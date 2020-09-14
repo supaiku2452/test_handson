@@ -3,4 +3,8 @@ const forEach = (items: unknown[], callback: (...args: unknown[]) => unknown) =>
     callback(element);
   });
 
-export { forEach };
+const timer = (ms: number, callback: (...args: unknown[]) => unknown) => {
+  setTimeout(() => callback(), ms);
+};
+
+export { forEach, timer };

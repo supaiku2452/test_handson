@@ -1,3 +1,4 @@
+console.log("outside");
 beforeAll(() => {
   console.log("beforeAll:[1]");
 });
