@@ -1,4 +1,3 @@
-import { isJsxElement } from "typescript";
 import { forEach, timer } from "../utils";
 
 describe("utils tests.", () => {
@@ -35,7 +34,6 @@ describe("utils tests.", () => {
     timer(1000, callback);
     jest.advanceTimersByTime(100);
     jest.advanceTimersByTime(100);
-    // jest.runAllTimers();
     console.log(jest.getTimerCount());
 
     expect(callback).toHaveBeenCalled();
