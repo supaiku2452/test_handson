@@ -17,4 +17,7 @@ describe("test", () => {
   test("math.sum still mock function", () => {
     expect(math.sum(1, 2)).toEqual(3);
   });
+  test("jest-extended sample test", () => {
+    expect(true).toBeTrue();
+  });
 });
