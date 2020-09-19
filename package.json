@@ -10,7 +10,10 @@
     "build:dev": "webpack  --mode=development"
   },
   "devDependencies": {
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/react-hooks": "^3.4.1",
     "jest": "^26.4.2",
+    "react-test-renderer": "^16.13.1",
     "ts-jest": "^26.3.0"
   },
   "dependencies": {
