@@ -2,7 +2,7 @@ import { renderHook } from "@testing-library/react-hooks";
 import { useFetchXXX } from "../useFetchXXX";
 
 describe("useFetchXXX", () => {
-  test("call test", async () => {
+  test("a call test using waitForNextUpdate pattern.", async () => {
     const { result, waitForNextUpdate } = renderHook(() => useFetchXXX());
     result.current.call();
     await waitForNextUpdate();
