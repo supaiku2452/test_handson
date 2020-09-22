@@ -16,24 +16,28 @@ const LoginForm = () => {
       <h1>Login Form</h1>
       <div>
         <div>
-          <label>user id</label>
           <input
-            name="userId"
+            data-testid="user-id"
+            type="text"
             value={userId}
             onChange={(e) => onChangeUserId(e.target.value)}
           />
         </div>
         <div>
-          <label>password</label>
           <input
-            name="userId"
+            data-testid="password"
             type="password"
             value={password}
             onChange={(e) => onChangePassword(e.target.value)}
           />
         </div>
 
-        <button type="button" onClick={regist} disabled={hasError}>
+        <button
+          data-testid="register"
+          type="button"
+          onClick={regist}
+          disabled={hasError}
+        >
           regist
         </button>
       </div>
